@@ -1,0 +1,37 @@
+/* header section  */
+.bg-header {
+  background-color: #264653;
+}
+.header-text {
+  color: #e0e0e0;
+}
+.btn-header {
+  display: flex;
+  width: 168px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #e76f51;
+  color: white;
+}
+.header-img {
+  width: 80%;
+}
+.btn-login {
+  display: flex;
+  width: 70px;
+  padding: 7px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #e76f51;
+  color: white;
+}
+.nav-item {
+  margin-left: 30px;
+}
