@@ -73,6 +73,49 @@
   margin-right: auto;
   text-align: center;
 }
-.custom-border {
-  border-bottom: 2px solid #e76f51;
+/* body part 2nd  */
+
+.cards img {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-btn {
+  display: flex;
+  width: 130px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 0;
+  background: #e76f51;
+  color: white;
+  font-weight: 500;
+}
+.card-btn:hover {
+  display: flex;
+  width: 130px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid;
+  background: white;
+  color: #e76f51;
+  font-weight: 500;
+}
+.card-text {
+  color: #6c6c6c;
+}
+.cards {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.bikes-card {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
 }
