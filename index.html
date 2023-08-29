@@ -14,7 +14,7 @@
     <header class="bg-header">
         <!-- navigation  -->
        <section class="container d-flex justify-content-end">
-        <nav class="navbar navbar-expand-lg bg-header">
+        <nav class="navbar navbar-expand-lg bg-header mt-lg-2">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
                   </li>
                 
                   <li>
-                    <button class="btn-login nav-item">Login</button>
+                    <button class="btn-login ms-lg-5 ">Login</button>
                   </li>
                 </ul>
               </div>
@@ -43,13 +43,44 @@
           </nav>
        </section>
         <!-- header item  -->
-        <section class="container">
-            <div class="row d-flex align-items-center px-lg-0 py-lg-5 px-2">
+        <section class="container pb-lg-2">
+            <div class="header-section row d-flex align-items-center px-lg-0 pb-lg-5 my-lg-5 px-2">
                 <div class="col-lg-6 ">
                     <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
                     <h1 class="text-white fw-bold">Honda CBR 300R</h1>
                     <p class="header-text fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn-header">Purchase</button>
+                    <div>
+                        <!-- Button trigger modal -->
+                            <button type="button" class="btn-header" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"        aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Honda CB300F On Road Price in Bangladesh</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="row modal-body d-flex align-items-center">
+                                        <div class="col-lg-6">HIGHLIGHTS OF THE BASE VARIANT <br>
+                                            Starting (Self Start Only) <br>
+                                            Wheels Type (Alloy) <br>
+                                            Tyre Type (Tubeless) <br>
+                                            Price - tk 2,98,055</div>
+                                        <div class="col-lg-6 modal-img">
+                                            <img src="images/header-bike.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center">
                     <img class="header-img" src="images/header-bike.png" alt="">
