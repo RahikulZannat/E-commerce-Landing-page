@@ -35,7 +35,111 @@
                   </li>
                 
                   <li>
-                    <button class="btn-login ms-lg-5 ">Login</button>
+                    <!-- <button class="btn-login ms-lg-5 ">Login</button> -->
+                    <!-- --------------------------------------------------->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Stay Connected</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- -------- login form ------  -->
+                                <form class="row gy-2 gx-3 align-items-center">
+                                    <div class="col-auto">
+                                      <label class="visually-hidden" for="autoSizingInput">Name</label>
+                                      <input type="text" class="form-control" id="autoSizingInput" placeholder="User Name">
+                                    </div>
+                                    <div class="col-auto">
+                                      <label class="visually-hidden" for="autoSizingInputGroup">Mail</label>
+                                      <div class="input-group">
+                                        <div class="input-group-text">@</div>
+                                        <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Your mail">
+                                      </div>
+                                    </div>
+                                    <div class="col-auto">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                                        <label class="form-check-label" for="autoSizingCheck">
+                                          Remember me
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-auto">
+                                      <button type="submit" class="btn-login">Login</button>
+                                    </div>
+                                  </form>
+                              <!-- -------- login form ------  -->
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Sign Up Here</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Fill Up to Log in</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <!-- -----------sign up form --------------  -->
+                              <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputPassword4" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                  <label for="inputAddress" class="form-label">Address</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div>
+                                <div class="col-12">
+                                  <label for="inputAddress2" class="form-label">Address 2</label>
+                                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputCity" class="form-label">City</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="inputState" class="form-label">State</label>
+                                  <select id="inputState" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-2">
+                                  <label for="inputZip" class="form-label">Zip</label>
+                                  <input type="text" class="form-control" id="inputZip">
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                      Check me out
+                                    </label>
+                                  </div>
+                                </div>
+                              </form>
+                                <!-- -----------sign up form --------------  -->
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button class="btn-login" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sign In</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn-login ms-lg-5 " data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login</button>
+                    <!-- ------------------------------------------------------- -->
                   </li>
                 </ul>
               </div>
@@ -75,7 +179,7 @@
                                     </div>
                                     <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn-header">Buy Now</button>
                                     </div>
                                 </div>
                                 </div>
