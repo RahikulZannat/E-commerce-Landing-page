@@ -38,3 +38,41 @@
 .modal-img img {
   width: 100%;
 }
+
+/* body part 1  */
+.fetured-bike img {
+  width: 80%;
+}
+.center {
+  width: 378px;
+  padding: 4px 20px;
+  font-weight: 600;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.center-p {
+  width: 378px;
+  padding: 4px 20px;
+  font-weight: 600;
+  color: #e76f51;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.center-line {
+  border: 1px solid red;
+  width: 58.5px;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.custom-border {
+  border-bottom: 2px solid #e76f51;
+}
