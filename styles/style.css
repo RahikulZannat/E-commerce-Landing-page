@@ -137,3 +137,14 @@
   margin-left: auto;
   margin-right: auto;
 }
+/* body part 5  */
+.center-faq {
+  text-align: center;
+}
+.faq {
+  width: 70%;
+}
+.canvas {
+  margin-bottom: 90px;
+  margin-top: 30px;
+}
