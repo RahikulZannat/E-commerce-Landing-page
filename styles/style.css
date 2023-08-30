@@ -75,13 +75,6 @@
 }
 /* body part 2nd  */
 
-.cards img {
-  width: 100%;
-  display: flex;
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
 .card-btn {
   display: flex;
   width: 130px;
@@ -118,4 +111,32 @@
   display: inline-flex;
   align-items: flex-start;
   gap: 20px;
+}
+/* body part 3  */
+.center-review {
+  width: 380px;
+  padding: 4px 20px;
+  font-weight: 600;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.review-title {
+  color: #e76f51;
+}
+.review-link {
+  text-decoration: none;
+  color: #23a6f0;
+}
+#cards img {
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cards {
+  width: 80px;
 }
