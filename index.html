@@ -357,8 +357,9 @@
         </section>
         <section class="container my-5">
         <!-- offcanvas  -->
-            <div class="d-flex justify-content-center gap-4">
-                <div>
+            <div class="row d-flex justify-content-center align-items-center">
+                <!-- 1st canvas  -->
+                <div class="col">
                     <button class="card-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Dirt Bike</button>
 
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -371,30 +372,46 @@
                     </div>
                     </div>
                 </div>
-                <div>
-                    <button class="card-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">MotoGp</button>
+                <!-- 2nd canvas  -->
+                <div class="col">
+                    <button class="card-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions-1" aria-controls="offcanvasWithBothOptions-1">MotoGp</button>
 
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions-1" aria-labelledby="offcanvasWithBothOptions-1Label">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Sports Bike</h5>
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptions-1Label">MotoGp Racing</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body d-flex justify-content-center">
                         <img src="images/sportsbike.jpg" alt="">
-                    </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <button class="card-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Show Off</button>
+                <!-- 3rd canvas  -->
+                <div class="col">
+                    <button class="card-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Show Off</button>
 
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Stunting</h5>
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Bike Stunt</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body d-flex justify-content-center">
                         <img src="images/stunt.jpg" alt="">
+                        </div>
                     </div>
+                </div>
+                <!-- 4th canvas  -->
+                <div class="col">
+                    <button class="card-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions-2" aria-controls="offcanvasWithBothOptions-2">Bikes</button>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions-2" aria-labelledby="offcanvasWithBothOptions-2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptions-2Label">Bike Racing</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex justify-content-center">
+                        <img src="images/cycle.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -403,7 +420,7 @@
     </main>
 
     <footer>
-
+            
     </footer>
     <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
