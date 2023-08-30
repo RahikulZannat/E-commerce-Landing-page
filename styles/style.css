@@ -148,3 +148,31 @@
   margin-bottom: 90px;
   margin-top: 30px;
 }
+/* footer  */
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+.footer-item {
+  display: flex;
+  justify-content: end;
+}
+.footer-img {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/* mobile view  */
+@media only screen and (max-width: 688px) {
+  .footer-part {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer-button {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* mobile view end  */
